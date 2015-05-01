@@ -1,3 +1,7 @@
+#ifndef BINARY_CPP
+#define BINARY_CPP
+#include "Binary.h"
+
 // Binary.cpp		Author: Vox
 // Contains the definitions for the Binary class.
 // The Binary class is an ADT representing a binary number. The number is
@@ -8,9 +12,7 @@
 // Assumptions: The Binary class reformats itself to remove all leading zeros
 // after any operations which could result in a change in value.
 //
-#ifndef BINARY_CPP
-#define BINARY_CPP
-#include "Binary.h"
+
 
 // default constructor: creates a Binary number equal to zero
 // pre-conditions: none
